@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package spring.grpc.kt.starter.v1;
+
+service Service {
+  rpc Service(ServiceRequest) returns (ServiceResponse) { }
+}
+
+message ServiceRequest {
+
+}
+
+message ServiceResponse {
+
+}
